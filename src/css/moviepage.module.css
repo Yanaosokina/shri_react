@@ -1,0 +1,78 @@
+.movie_page {
+  margin-top: 110px;
+}
+
+.container {
+  margin: 24px 32px;
+}
+.aboutmovie {
+  margin: 0 32px 24px;
+}
+
+.movie {
+  background-color: white;
+  border-radius: 8px;
+}
+.movie_container {
+  display: flex;
+  padding: 24px;
+}
+.image {
+  width: 400px;
+  height: 500px;
+  border-radius: 8px;
+  margin-right: 32px;
+}
+
+.movie_block h3 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  margin-bottom: 18px;
+}
+.movie_block p {
+    font-size: 15px;
+margin-bottom: 8px;
+}
+
+.description {
+    margin-top: 33px;
+}
+
+.add_to_cart {
+  display: flex;
+}
+.review_block {
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 24px;
+  display: flex;
+  padding: 24px;
+}
+.review_block  img {
+  margin-right: 32px;
+  width:100px;
+  height: 100px;
+}
+
+.user p {
+  font-weight: 500;
+font-size: 17px;
+line-height: 32px;
+margin-bottom: 8px;
+}
+
+.user div {
+  font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+
+.spinner  {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orangered;
+  font-weight: 600;
+}

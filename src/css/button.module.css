@@ -1,0 +1,19 @@
+.button {
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.button_remove {
+    background-color: #ffa375;
+    margin-right: 8px;
+}
+  
+  .button_add {
+    background-color: #ff5500;
+    margin-left: 8px;
+
+  }

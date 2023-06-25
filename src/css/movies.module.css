@@ -1,0 +1,108 @@
+.movies_container {
+  width: 100%;
+  margin-top: 9px;
+  margin-bottom: 23px;
+  margin-right: 18px;
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  margin-top: 16px;
+  border-radius: 8px;
+  width: 100%;
+  padding: 24px 24px 24px 24px;
+  justify-content: space-between;
+}
+.movie {
+  display: flex;
+}
+
+.container img {
+  width: 100px;
+  height: 120px;
+  border-radius: 8px;
+  margin-right: 24px;
+}
+.about h1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+.about p {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.add_to_cart {
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+}
+.exit {
+  margin-left: 27px;
+  color: black;
+  cursor: pointer;
+  font-weight: 300;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal_content {
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  width: 344px;
+  height: 168px;
+}
+.modal_content h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+.modal_content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 24px;
+}
+.modal_button {
+  width: 51px;
+height: 40px;
+border-radius: 8px;
+cursor: pointer;
+}
+.confirm_button {
+  background: #FF5500;
+  color: white;
+  border: none;
+  margin-right: 8px;
+}
+.cancel_button {
+  border: 1px solid #FF5500;
+  background-color: white;
+  color:#FF5500;
+
+}
+
+.close {
+  position: absolute;
+  top: 41%;
+  right: 39%;
+  cursor: pointer;
+  color: black;
+}

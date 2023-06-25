@@ -1,0 +1,57 @@
+.find {
+  width: 408px;
+  background-color: white;
+  margin: 24px 23px 24px 32px;
+  min-height: 100vh;
+  border-radius: 8px;
+}
+.container {
+  margin: 0 24px;
+  padding-top: 24px;
+}
+.find_block {
+  margin-top: 20px;
+}
+.name {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+.input {
+  border: 1px solid #E1E3E6;
+  padding-left: 16px;
+  width: 360px;
+  height: 40px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+.input:focus {
+  border: 1px solid rgb(255, 111, 0);
+}
+
+.find_line {
+    border: 1px solid #E1E3E6;
+    width: 360px;
+  height: 40px;
+  border-radius: 12px;
+  font-size: 14px;
+  color: #999FA6;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  justify-content: space-between;
+
+}
+.find_line.activeFind {
+    border: 1px solid rgb(255, 111, 0);
+}
+.dropdown_menu {
+    width:360px;
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.dropdown_menu li {
+    padding: 12px 12px 10px 12px;
+} 
