@@ -20,6 +20,8 @@ pnpm dev
 
 Открой [http://localhost:3000](http://localhost:3000) в своем браузере, чтобв видеть результат.
 
+В случае вопросов пиши  tg:yanachapa 
+
 
 
 
